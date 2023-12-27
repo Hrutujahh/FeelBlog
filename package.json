@@ -1,0 +1,35 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hrutujahh/FeelBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hrutujahh/FeelBlog/issues"
+  },
+  "homepage": "https://github.com/Hrutujahh/FeelBlog#readme",
+  "dependencies": {
+    "@mui/icons-material": "^5.15.2",
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.2",
+    "react-hot-toast": "^2.4.1"
+  }
+}
